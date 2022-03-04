@@ -3,11 +3,11 @@ module github.com/aretaja/check-gosnmp-powergen
 go 1.17
 
 // For local development
-// replace (
-// 	github.com/aretaja/godevman => ../godevman
-// 	github.com/aretaja/icingahelper => ../icingahelper
-// 	github.com/aretaja/snmphelper => ../snmphelper
-// )
+replace (
+	github.com/aretaja/godevman => ../godevman
+	github.com/aretaja/icingahelper => ../icingahelper
+	github.com/aretaja/snmphelper => ../snmphelper
+)
 
 require (
 	github.com/aretaja/godevman v0.0.0-00010101000000-000000000000
